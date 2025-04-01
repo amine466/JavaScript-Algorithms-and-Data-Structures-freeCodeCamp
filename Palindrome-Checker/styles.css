@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 50px 0;
+  box-sizing: border-box;
+  background: #0a0a23;
+  color: white;
+  text-align: center;
+}
+
+.app {
+  background: white;
+  color: black;
+  margin: 20px auto;
+  width: 70%;
+  max-width: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 7px darkblue ;
+}
+
+label {
+  display: block;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 2px 10px;
+  border: 0;
+  border-bottom: 2px solid #5a01a7;
+  margin: 0 5px;
+}
+
+button {
+  background: #5a01a7;
+  color: white;
+  padding: 7px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 0;
+}
+
+.note {
+  background: green;
+  width: 70%;
+  max-width: 300px;
+  margin: 10px auto;
+  border-radius: 10px;
+  padding: 8px;
+  font-size: 1.1em;
+  display: flex;
+}
+
+.icon {
+  text-align: left;
+}
+
+.text {
+  text-align: center;
+}
