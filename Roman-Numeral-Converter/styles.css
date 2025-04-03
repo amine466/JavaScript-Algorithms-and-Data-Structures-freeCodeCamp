@@ -1,0 +1,76 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: #1b1b32;
+  text-align: center;
+  color: white;
+}
+
+main {
+  padding: 50px;
+}
+
+h1 {
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+.app, #output {
+  background: #3b3b4f;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 3px solid white;
+}
+
+#output.error {
+  background: #ffadad;
+  color: red;
+  border-color: red;
+}
+
+label {
+  width: 100%;
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 20px 0;
+}
+
+input {
+  display: block;
+  margin: 10px auto;
+  width: 80%;
+  height: 40px;
+  background: black;
+  color: white;
+  font-size: 2em;
+  border: 1px solid white;
+}
+
+button {
+  width: 80%;
+  height: 40px;
+  background: orange;
+  font-size: 1.2em;
+  margin: 10px;
+  cursor: pointer;
+  border: 0;
+}
+
+#output {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+#message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hidden {
+  display: none;
+}
