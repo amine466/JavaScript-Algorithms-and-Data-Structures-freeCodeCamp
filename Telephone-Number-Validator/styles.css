@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background: #3b3b4f;
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+main {
+  min-width: 300px;
+}
+
+h1 {
+  font-weight: bold;
+  padding: 20px;
+  max-width: 300px;
+  margin: 10px auto;
+}
+
+.phone {
+  background: black;
+  max-width: 250px;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.circle {
+  background: white;
+  width: 10px;
+  height: 10px;
+  margin: 5px auto;
+  border-radius: 50%;
+}
+
+.screen {
+  background: white;
+  color: black;
+  height: 80vh;
+  max-height: 350px;
+  margin: 10px 5px;
+  padding: 10px;
+}
+
+label {
+  font-size: 1.2em;
+}
+
+input {
+  width: 100%;
+  height: 30px;
+  border-radius: 10px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+#result-div {
+ height: 250px;
+ overflow-y: auto;
+}
+
+.valid {
+  color: green;
+  font-size: 1.5em;
+}
+
+.invalid {
+  color: brown;
+  font-size: 1.5em;
+}
+
+.buttons {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  margin: 0 10px 10px 10px;
+  font-weight: medium;
+  font-size: 1.2em;
+  cursor: pointer;
+}
