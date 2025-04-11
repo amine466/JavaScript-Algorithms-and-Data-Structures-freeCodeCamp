@@ -1,1 +1,57 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main>
+      <img src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" width="250">
+      <h1>Cash Register Project</h1>
+      <div id="change-due">
+      </div>
+      <div class="input">
+        <label for="cash">Enter cash from customer</label>
+        <input id="cash" type="number" />
+        <button id="purchase-btn">Purchase</button>
+      </div>
+      <div class="cash">
+        <div class="total blue">
+          <p id="total">Total: $<span id="total-price"></span></p>
+        </div>
+        <div class="square blue"></div>
+        <div class="drawer blue">
+          <div class="squares">
+            <div class="mini-square"></div>
+            <div class="mini-square"></div>
+            <div class="mini-square"></div>
+            <div class="mini-square"></div>
+            <div class="mini-square"></div>
+            <div class="mini-square"></div>
+            <div class="mini-square"></div>
+            <div class="mini-square"></div>
+            <div class="mini-square"></div>
+          </div>
+          <div id="change">
+            <h4>Change in drawer:</h4>
+            <p>Pennies: $<span id="penny"></span></p>
+            <p>Nickels: $<span id="nickel"></span></p>
+            <p>Dimes: $<span id="dime"></span></p>
+            <p>Quarters: $<span id="quarter"></span></p>
+            <p>Ones: $<span id="one"></span></p>
+            <p>Fives: $<span id="five"></span></p>
+            <p>Tens: $<span id="ten"></span></p>
+            <p>Twenties: $<span id="twenty"></span></p>
+            <p>Hundreds: $<span id="hundred"></span></p>
+          </div>
+        </div>
+        <div class="rectangle blue">
+          <div class="circle"></div>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

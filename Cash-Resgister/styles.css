@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0a0a23;
+  color: white;
+  text-align: center;
+}
+
+main {
+  padding: 40px;
+}
+
+h1 {
+  margin: 40px auto;
+}
+
+#change-due p{
+  width: 100%;
+  text-align: center;
+}
+
+.input {
+  width: 300px;
+  margin: 0 auto;
+}
+
+label, input {
+  display: block;
+  margin: 10px auto;
+  padding: 3px;
+}
+
+button {
+  padding: 5px 15px;
+  font-weight: bold;
+  font-size: 1.0em;
+  background: orange;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.cash {
+  width: 300px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.blue {
+  background: #99c9ff;
+}
+
+.total {
+  width: 150px;
+  padding: 7px 10px;
+  margin: 10px 0 0 30px;
+}
+
+#total {
+  background: black;
+  font-size: 1.1em;
+  padding: 5px;
+}
+
+.square {
+  width: 40px;
+  height: 30px;
+  margin-left: 60px;
+}
+
+.drawer {
+  width: 100%;
+
+  border-radius: 20px 20px 0 0;
+  display: flex;
+}
+
+.squares {
+  height: 70px;
+  margin: 15px 10px;
+  max-width: 80px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.mini-square {
+  width: 20px;
+  height: 20px;
+  background: black;
+}
+
+#change {
+  width: 200px;
+  margin: 15px 10px;
+  padding: 10px;
+  background: white;
+  color: black;
+  text-align: left;
+}
+
+.rectangle {
+  width: 100%;
+  height: 40px;
+  margin: 10px 0;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: black;
+  margin: 10px auto;
+}
