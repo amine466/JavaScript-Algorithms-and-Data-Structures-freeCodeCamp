@@ -1,1 +1,63 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG Creature Search App</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main>
+      <img src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" width="220" />
+      <h1>RPG Creature Search App</h1>
+      <section>
+        <form class="app">
+          <label for="search-input">Search for Creature Name or ID:</label>
+          <input id="search-input" type="text" required />
+          <button id="search-button">Search</button>
+        </form>
+        <div class="output">
+          <div id="creature-info">
+            <p class="information">
+              <span id="creature-name"></span>
+               <span id="creature-id"></span>
+            </p>
+            <p>Weight: <span id="weight"></span> Height: <span id="height"></span></p>
+            <p id="types"></p>
+          </div>
+          <table>
+            <tr>
+              <td class="base">BASE</td>
+              <td class="stat">Stats</td>
+            </tr>
+            <tr>
+              <td class="base">HP:</td>
+              <td id="hp" class="stat"></td>
+            </tr>
+            <tr>
+              <td class="base">Attack:</td>
+              <td id="attack" class="stat"></td>
+            </tr>
+            <tr>
+              <td class="base">Defense:</td>
+              <td id="defense" class="stat"></td>
+            </tr>
+            <tr>
+              <td class="base">Sp. Attack:</td>
+              <td id="special-attack" class="stat"></td>
+            </tr>
+            <tr>
+              <td class="base">Sp. Defense:</td>
+              <td id="special-defense" class="stat"></td>
+            </tr>
+            <tr>
+              <td class="base">Speed:</td>
+              <td id="speed" class="stat"></td>
+            </tr>
+          </table>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
